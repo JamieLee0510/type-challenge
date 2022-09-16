@@ -2,6 +2,8 @@
  * 這裏的chain option，要後面的覆蓋前面的
  *
  */
+
+// UNFINISHED
 type Chainable<T = {}> = {
     option<Key extends string, Value>(
         key: Key extends keyof T ? never : Key,
